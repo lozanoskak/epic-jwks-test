@@ -1,8 +1,12 @@
 {
-  "kty": "RSA",
-  "kid": "epic-non-prod-key",
-  "use": "sig",
   "alg": "RS256",
-  "n": "iQuy7GVMBbLS7iVGqJj3trZUJvxBuN78Lh_NOW77CN7bd4pnCNe0Qb5OQhA0Z3nKP-OSCCtxYnXOi_VKyET32p0mXCY9A34aq_FS6lshEAkoUgSla24R2VGpoKA7cOTDXDKIgRtXRK-9kDTy2STVC2uqN1RosDQRVA66HudqG0yN2MJa5LPN8exsMd6ailgPBtVJCYBMKCOk5A-7TSBO-cdExeU3rvxcwUQffolJp0DFAyoCUAJs3OuaPSE7oFqjDENFczII7nnjpNQobpgH4oA3WpaSK_8E5kb81Os3gCoNVSJV6MrFItbR7Ez_F4prsoNQnzcijPwqBImpaqauhw",
-  "e": "AQAB"
+  "e": "AQAB",
+  "ext": true,
+  "key_ops": [
+    "verify"
+  ],
+  "kty": "RSA",
+  "n": "o_W99BFjGn0aLkjBWWTcwzWjXBIcVftimjx3qZrhHsjkUfs95Z6zFpAxCnIxB-Fp2EtTes8oprI20UL3ghOlF81QsH4O7dxwkmtXsD4UdjNpmO8ymeVTIvtqH59tFWBVIXOKgsQJt78d9yywTiI_sWQppWpLkUSWyVDroMFWb7M",
+  "kid": "epic-non-prod-key",
+  "use": "sig"
 }
